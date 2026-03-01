@@ -1,0 +1,6 @@
+venv/
+storage/
+docs/
+doc prueba xxx/
+__pycache__/
+.env

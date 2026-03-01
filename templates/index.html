@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sarasvati IA</title>
+</head>
+<body>
+    <h1>PRUEBA TEMPLATE NUEVO</h1>
+    <h1>Sarasvati IA – Prototipo</h1>
+
+    <h2>Subir documento</h2>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <button type="submit">Subir</button>
+    </form>
+
+
+
+<h2>Indexar documentos</h2>
+<a href="/index">Indexar ahora</a>
+
+
+<h2>Chat con Sarasvati</h2>
+
+<form action="/chat" method="post">
+    <input type="text" name="question" placeholder="Haz una pregunta..." required>
+    <button type="submit">Preguntar</button>
+</form>
+
+
+
+</body>
+</html>
